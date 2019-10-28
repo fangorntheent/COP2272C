@@ -1,10 +1,8 @@
-//
-//  Sunflower.cpp
-//  OOP3LipkinG
-//
-//  Created by Gus Lipkin on 10/28/19.
-//  Copyright © 2019 Gus Lipkin. All rights reserved.
-//
+//Gus Lipkin
+//COP 2272C 01
+//Computer Programming 1
+//OOP3
+//October 28, 2019
 
 #include "Sunflower.h"
 #include <iostream>
