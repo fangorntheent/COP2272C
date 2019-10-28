@@ -12,4 +12,16 @@ class Sunflower {
 private:
     int numPetal;
     double stemLength;
-}
+public:
+    Sunflower();
+    Sunflower(int petal, double height);
+    
+    int getNumPetal();
+    double getStemLength();
+    
+    void setNumPetal(int n);
+    void setStemLength(double n);
+    
+    void display();
+    void grow();
+};
