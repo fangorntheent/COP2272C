@@ -5,7 +5,6 @@
 //November 1, 2019
 
 #include <iostream>
-using namepsace std;
 
 int main() {
     
