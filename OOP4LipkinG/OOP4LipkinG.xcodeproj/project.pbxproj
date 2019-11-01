@@ -10,6 +10,7 @@
 		33C22080236CAC5A00117D41 /* TestPlant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C2207F236CAC5A00117D41 /* TestPlant.cpp */; };
 		33C22088236CAD8F00117D41 /* Plant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C22086236CAD8F00117D41 /* Plant.cpp */; };
 		33C2208B236CAF3800117D41 /* Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C22089236CAF3800117D41 /* Tree.cpp */; };
+		33C2208E236CB88C00117D41 /* Grass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33C2208C236CB88C00117D41 /* Grass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		33C22087236CAD8F00117D41 /* Plant.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Plant.hpp; sourceTree = "<group>"; };
 		33C22089236CAF3800117D41 /* Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tree.cpp; sourceTree = "<group>"; };
 		33C2208A236CAF3800117D41 /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
+		33C2208C236CB88C00117D41 /* Grass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grass.cpp; sourceTree = "<group>"; };
+		33C2208D236CB88C00117D41 /* Grass.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Grass.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 			children = (
 				33C2207F236CAC5A00117D41 /* TestPlant.cpp */,
 				33C22086236CAD8F00117D41 /* Plant.cpp */,
+				33C2208C236CB88C00117D41 /* Grass.cpp */,
+				33C2208D236CB88C00117D41 /* Grass.hpp */,
 				33C22089236CAF3800117D41 /* Tree.cpp */,
 				33C2208A236CAF3800117D41 /* Tree.hpp */,
 				33C22087236CAD8F00117D41 /* Plant.hpp */,
@@ -131,6 +136,7 @@
 			files = (
 				33C2208B236CAF3800117D41 /* Tree.cpp in Sources */,
 				33C22080236CAC5A00117D41 /* TestPlant.cpp in Sources */,
+				33C2208E236CB88C00117D41 /* Grass.cpp in Sources */,
 				33C22088236CAD8F00117D41 /* Plant.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
