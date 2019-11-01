@@ -10,10 +10,8 @@
 #include <stdio.h>
 
 #endif /* Tree_hpp */
-#include <string>
-#include "Plant.hpp"
 
-using namespace std;
+#include "Plant.hpp"
 
 class Tree : public Plant {
 private:
