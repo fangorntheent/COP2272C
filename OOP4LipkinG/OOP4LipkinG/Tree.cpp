@@ -14,6 +14,7 @@ Tree::Tree() : Plant() {
 Tree::Tree(int a) : Plant() {
     age = a;
 }
+
 Tree::Tree(int a, double height) : Plant(height) {
     this->age = a;
 }
@@ -29,6 +30,7 @@ void Tree::setAge(int a) {
 void Tree::display() {
     std::cout << "This tree is " << age << " years old and " << this->getHeight() << " feet tall." << std::endl;
 }
+
 void Tree::grow() {
     std::cout << "This tree is growing well, but it appears to be a crab apple tree." << std::endl;
 }

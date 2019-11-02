@@ -31,6 +31,7 @@ void Grass::display() {
     Plant::display();
     std::cout << "This is some leafy grass! There are " << leafNum << " blades." << std::endl;
 }
+
 void Grass::bloom() {
     std::cout << "This grass is blooming well on a remote mountainside." << std::endl;
 }
