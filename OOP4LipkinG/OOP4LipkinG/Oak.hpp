@@ -4,6 +4,7 @@
 //OOP4
 //November 1, 2019
 
+#pragma once
 #ifndef Oak_hpp
 #define Oak_hpp
 

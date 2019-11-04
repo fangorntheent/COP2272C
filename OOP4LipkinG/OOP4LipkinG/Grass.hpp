@@ -4,6 +4,7 @@
 //OOP4
 //November 1, 2019
 
+#pragma once
 #ifndef Grass_hpp
 #define Grass_hpp
 

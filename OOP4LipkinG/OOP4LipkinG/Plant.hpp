@@ -4,6 +4,7 @@
 //OOP4
 //November 1, 2019
 
+#pragma once
 #ifndef Plant_hpp
 #define Plant_hpp
 
