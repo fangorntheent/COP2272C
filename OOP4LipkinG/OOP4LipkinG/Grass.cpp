@@ -7,11 +7,11 @@
 #include "Grass.hpp"
 #include <iostream>
 
-Grass::Grass() {
+Grass::Grass() : Plant() {
     leafNum = 100;
 }
 
-Grass::Grass(int l) {
+Grass::Grass(int l) : Plant() {
     leafNum = l;
 }
 
