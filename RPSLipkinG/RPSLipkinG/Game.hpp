@@ -10,6 +10,7 @@
 #define Game_hpp
 
 #include <stdio.h>
+#include <iostream>
 
 #endif /* Game_hpp */
 
@@ -21,6 +22,10 @@ public:
     
     Game();
     Game(int rMax);
+    
+    int getPrevRoundWinner();
+    int winningThrow(int t);
+    int losingThrow(int t);
     
     void winRound(int a, int b);
     void winGame(int a, int b);

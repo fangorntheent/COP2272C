@@ -10,6 +10,7 @@
 #define RobotPlayer_hpp
 
 #include <stdio.h>
+#include <cstdlib>
 
 #endif /* RobotPlayer_hpp */
 #include "Player.hpp"
@@ -19,5 +20,5 @@ class RobotPlayer : public Player {
 public:
     RobotPlayer();
     
-    void setThrow(int r);
+    void setThrow(int r, Game g);
 };
